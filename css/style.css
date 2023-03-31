@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #2A2F37;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* *************************************** */
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-d-none{
+    text-decoration: none;
+}
+
+.border-none {
+    outline: none;
+    border: none;
+    outline-offset: 0;
+}
+
+.rows-pole {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.6;
+}
+
+/* *************************************** */
+
+/* HEADER */
+
+.container {
+  max-width: 1155px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 72px;
+  color: #2A2F37;
+}
+
+.header-img-user {
+  margin-left: 27px;
+}
+
+.header p {
+    margin-left: 8px;
+    font-weight: 400;
+
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Main */
+
+/* ЛЕВАЯ ЧАСТЬ MAIN */
+
+/* Аватар и личная инфомрация */
+main {
+  background-color: #F5F5F5;
+  padding-bottom: 160px;
+}
+
+.main-content {
+    padding-top: 50px;
+    background: #F5F5F5;
+    
+}
+
+.main-content-left {
+  width: 263px;
+  height: 920px;
+
+  background-color: #FFFFFF;
+}
+
+.content-left-user {
+    gap: 16px;
+
+    height: 88px;
+
+    padding-top: 24px;
+    padding-left: 24px;
+
+    border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+
+    background: rgba(42, 47, 55, 0.08);
+}
+
+.user-avatar p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    opacity: 0.4;
+}
+
+.user-text h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.user-text p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.6;
+}
+
+.main-content-right {
+    width: 863px;
+    height: 920px;
+}
+
+/* Категории */
+
+.content-category {
+    gap: 13px;
+
+    padding-left: 23px;
+    margin-top: 16px;
+
+    border-left: 2px solid #1E3DAF;
+}
+
+.content-category a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1E3DAF;
+}
+
+/* Выход */
+
+.content-exit {
+    gap: 12px;
+
+    padding-left: 24px;
+    margin-top: 712px;
+}
+
+.content-exit {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* ПРАВАЯ ЧАСТЬ MAIN */
+
+.main-content-right {
+    width: 867px;
+    height: 920px;
+}
+
+.txt-btn-right {
+    height: 88px;
+    border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+}
+
+.text-main-content h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.text-main-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.btn-add {
+    width: 133px;
+    height: 40px;
+    background: #1E3DAF;
+    gap: 20px;
+}
+
+.btn-add span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* Фильтр, поиск */
+
+.content-adss {
+    width: 867px;
+    height: 64px;
+}
+
+.search-filter {
+    padding-top: 24px;
+}
+
+.input-ads {
+    width: 420px;
+    height: 40px;
+
+    background: #FFFFFF;
+    background-image: url(../img/main/search.svg);
+    
+    background-repeat: no-repeat;
+    background-position: center right 16px;
+    border: 1px solid rgba(42, 47, 55, 0.08)
+}
+
+.input-ads::placeholder{
+    padding-left: 16px;
+    padding-top: 8px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.4;
+}
+
+.btn-filter {
+    width: 159px;
+    height: 40px;
+    background: rgba(42, 47, 55, 0.08);
+
+    gap: 19px;
+
+    margin-left: 12px;
+}
+
+.btn-filter span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.text-filter {
+    width: 76px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    margin-left: 122px;
+}
+
+.chevron-left {
+    margin-left: 25px;
+}
+
+.chevron-right {
+    margin-left: 3px;
+}
+
+/* Строки с информацией */
+
+.grid-container {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px repeat(8, 80px);
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.item1 {
+    grid-row: 1 / 2;
+    height: 40px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+  
+.name {
+    position: absolute;
+    left: 24px;
+}
+
+.rows-pole-img {
+    position: absolute;
+    left: 150px;
+}
+
+.category {
+    position: absolute;
+    left: 302px;
+}
+
+.date {
+    position: absolute;
+    left: 504px;
+}
+
+.publish {
+    position: absolute;
+    left: 705px
+}
+
+.rows-item {
+    background-color: #FFFFFF;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rows-value-b {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.rows-value-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.rows-img-value {
+    position: absolute;
+    left: 830px
+}
+
+/* ПОДВАЛ */
+footer {
+    background-color: #2A2F37;
+}
+
+.footer-logo-url {
+    padding-top: 48px;
+    justify-content: space-between;
+}
+
+.logo-text {
+    align-items: center;
+    gap: 40px;
+}
+
+.logo-text p{
+    width: 247px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.footer-url {
+    gap: 20px;
+}
+
+.footer-nav {
+    justify-content: space-around;
+    padding-top: 64px;
+}
+
+.footer-nav a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.line-footer {
+    padding-top: 48px;
+}
+
+.footer-documentation {
+    justify-content: space-between;
+    padding: 20px 0 48px;
+}
+
+.footer-documentation p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
